@@ -1,0 +1,68 @@
+{
+    "name": "Ascetic White V2",
+    "variables": {
+        // Colors without a good CSS default
+        "darkgrey": "#202020",
+        "comment": "#BBBBBB",
+        "find_highlight": "#FFE792",
+        "gutter_foreground": "#303030",
+
+        // Customized Colors
+        "--bluish": "cornflowerblue",
+        "--yellowish": "goldenrod",
+        // Default Colors
+        "--reddish": "red",
+        "--greenish": "green",
+        "--orangish": "orange",
+        "--purpleish:": "purple",
+        "--pinkish": "pink",
+        "--cyanish": "cyan",
+        "--accent": "cyan",
+    },
+    "globals":
+    {
+        "background": "white",
+        "foreground": "var(darkgrey)",
+        "caret": "var(darkgrey)",
+        "invisibles": "darkgrey",
+        "selection": "lightgrey",
+        "selection_border": "lightgrey",
+        "find_highlight": "var(find_highlight)",
+        "find_highlight_foreground": "black",
+        "gutter_foreground": "var(gutter_foreground)",
+
+        "brackets_foreground": "black",
+        "brackets_options": "bold",
+        "bracket_contents_foreground": "black",
+        "bracket_contents_options": "bold",
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(comment)",
+            "selection_foreground": "black",
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "dimgray",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "dimgray",
+        },
+        {
+            "name": "Line Number when searching",
+            "scope": "constant.numeric.line-number.find-in-files - match",
+            "foreground": "dimgray",
+        },
+        {
+            "name": "File Name when searching",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "dimgray",
+        },
+    ]
+}
