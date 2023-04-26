@@ -1,0 +1,16 @@
+{
+	"schema_version": "3.0.0",
+	"packages": [
+		{
+			"name": "Ascetic White V2 Color Scheme",
+			"details": "https://github.com/trianglesphere/ascetic_white_v2",
+			"labels": ["color scheme"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"branch": "master"
+				}
+			]
+		},
+	],
+}
