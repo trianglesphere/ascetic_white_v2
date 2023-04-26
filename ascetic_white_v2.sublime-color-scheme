@@ -1,3 +1,8 @@
+// Ascetic White V2 Color Scheme
+// Based on https://github.com/archydragon/sublime-asceticbw
+// Copyright (c) 2012 Mendor.
+// Copyright (c) 2023 Joshua Gutow
+// Released under the MIT License <http://opensource.org/licenses/MIT>
 {
     "name": "Ascetic White V2",
     "variables": {
